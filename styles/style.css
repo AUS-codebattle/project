@@ -86,7 +86,12 @@ h1 {
   font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: 700;
 }
-
+h2 {
+  font-size: 1.5em;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: 700;
+  margin-left: 2%;
+}
 .content-bottom {
   font-family: "Poppins", "Verdana", sans-serif;
   font-size: 1em;
