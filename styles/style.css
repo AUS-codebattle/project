@@ -1,9 +1,30 @@
-body{
-    background:#CECECE;
+body {
+  background: #cecece;
+  margin: 2%;
 }
-nav{
-    display: flex;
+nav {
+  display: flex;
+  align-items: center;
 }
-a{
-    font-style: none;
+a {
+  text-decoration: none;
+  color: black;
+  font-family: popins, sans-serif;
+  font-size: 24px;
+}
+.links {
+  margin-right: 2.5%;
+  height: 25px;
+}
+
+.logo {
+  margin-right: 4%;
+}
+
+.github {
+  margin-left: 45%;
+}
+
+.size {
+  height: 50px;
 }

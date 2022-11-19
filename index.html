@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
     <title>Main Page</title>
-</head>
-
-
-<body>
+  </head>
+  <body onload="get_map()">
     <nav>
-        <div class="logo"></div>
-        <div class="links"><a href="./index.html">Home</a> 
-        </div>
-
+      <div class="logo">
+        <img src="./src/YOU MATTER.svg" alt="You Matter" />
+      </div>
+      <div class="links">
+        <a href="./index.html">Home</a>
+      </div>
+      <div class="links">
+        <a href="./about-us.html">About Us</a>
+      </div>
+      <div class="links">
+        <a href="./link1">Link 1</a>
+      </div>
+      <div class="links">
+        <a href="./link2">Link 2</a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/AUS-codebattle/">
+          <img src="./src/github.png" alt="GitHub" class="size" />
+        </a>
+      </div>
     </nav>
+    <iframe
+      id="map"
+      width="450"
+      height="250"
+      frameborder="0"
+      style="border: 0"
+      referrerpolicy="no-referrer-when-downgrade"
+      src=""
+      allowfullscreen
+    >
+    </iframe>
     <script src="./scripts/index.js"></script>
-</body>
-
+  </body>
 </html>
