@@ -1,0 +1,9 @@
+body{
+    background:#CECECE;
+}
+nav{
+    display: flex;
+}
+a{
+    font-style: none;
+}
