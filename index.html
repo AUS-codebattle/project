@@ -12,9 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,500;1,600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap"
+      rel="stylesheet"
+    />
     <title>Main Page</title>
   </head>
-  <body onload="get_map()">
+  <body>
     <nav>
       <div class="logo">
         <img src="./src/YOU MATTER.svg" alt="You Matter" />
@@ -23,13 +27,7 @@
         <a href="./index.html">Home</a>
       </div>
       <div class="links">
-        <a href="./about-us.html">About Us</a>
-      </div>
-      <div class="links">
-        <a href="./link1">Link 1</a>
-      </div>
-      <div class="links">
-        <a href="./link2">Link 2</a>
+        <a href="./emergency_services.html">Services</a>
       </div>
       <div class="github">
         <a href="https://github.com/AUS-codebattle/">
@@ -37,17 +35,121 @@
         </a>
       </div>
     </nav>
-    <iframe
-      id="map"
-      width="450"
-      height="250"
-      frameborder="0"
-      style="border: 0"
-      referrerpolicy="no-referrer-when-downgrade"
-      src=""
-      allowfullscreen
-    >
-    </iframe>
+    <main>
+      <div class="flex">
+        <img src="./src/image1.png" alt="Image 1" class="main-img" />
+        <div class="checklist">
+          <h2>Daily Well-Being Checklist</h2>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning."
+              id="brush-teeth"
+            />
+            Brush your teeth. <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning and the night."
+              id="brush-teeth"
+            />
+            Brush your teeth. <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Take Daily Showers."
+              id="brush-teeth"
+            />
+            Take Daily Showers. <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning."
+              id="brush-teeth"
+            />
+            Cut your nails frequently. <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning."
+              id="brush-teeth"
+            />
+            Wash your hands before eating. <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning."
+              id="brush-teeth"
+            />
+            Wear clean clothes. <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning."
+              id="brush-teeth"
+            />
+            Get atleast 7 hours of sleep daily <br />
+          </div>
+          <div class="check_box">
+            <input
+              type="checkbox"
+              name="Brush your teeth in the morning."
+              id="brush-teeth"
+            />
+            Eat a balanced diet <br />
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="flex-bottom">
+        <div class="content-bottom">
+          <h2>UN SDG 3: Good health and well being</h2>
+
+          <div style="padding-left: 2%; padding-right: 2%">
+            The third Sustainable Development Goal aims to ensure healthy lives
+            and promote well-being for all at all ages. This website aims to
+            achieve this goal through its diverse featureset that enables people
+            to find vaccination camps and PCR testing places. It provides users
+            with a daily hygiene checklist and a list of all the emergency
+            numbers.
+          </div>
+        </div>
+        <img
+          src="./src/svg3.png"
+          alt="svg3"
+          class="svg"
+          style="margin-top: 2%"
+        />
+      </div>
+      <div class="flex">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7213.593539031123!2d55.49180789999998!3d25.311031300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgovernment%20hospitals%20near%20me!5e0!3m2!1sen!2sae!4v1668844068087!5m2!1sen!2sae"
+          width="1200"
+          height="900"
+          style="border: 0; border-radius: 20px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <br />
+    <footer>
+      <div class="links1">
+        <a href="./index.html" style="color: white">Home</a><br /><br />
+        <a href="./emergency_services.html" style="color: white"
+          >Emergency Services</a
+        ><br /><br />
+        <a href="#" style="color: white">Services Near You</a><br />
+      </div>
+      <div class="links2"></div>
+    </footer>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
