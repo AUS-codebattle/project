@@ -86,11 +86,11 @@ h1 {
   font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: 700;
 }
-h2 {
+.h2 {
   font-size: 1.5em;
   font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: 700;
-  margin-left: 2%;
+  margin-left: 2.5%;
 }
 .content-bottom {
   font-family: "Poppins", "Verdana", sans-serif;
@@ -132,4 +132,8 @@ footer > a {
 
 .links2 {
   width: 50%;
+}
+
+.links:hover {
+  color: #575757;
 }

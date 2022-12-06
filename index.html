@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap"
       rel="stylesheet"
     />
+    <script src="./scripts/scripts.js"></script>
     <title>Main Page</title>
   </head>
   <body>
@@ -48,14 +49,7 @@
             />
             Brush your teeth. <br />
           </div>
-          <div class="check_box">
-            <input
-              type="checkbox"
-              name="Brush your teeth in the morning and the night."
-              id="brush-teeth"
-            />
-            Brush your teeth. <br />
-          </div>
+          <div class="check_box"></div>
           <div class="check_box">
             <input
               type="checkbox"
@@ -84,7 +78,7 @@
             <input
               type="checkbox"
               name="Brush your teeth in the morning."
-              id="brush-teeth"
+              id1="brush-teeth"
             />
             Wear clean clothes. <br />
           </div>
@@ -104,6 +98,12 @@
             />
             Eat a balanced diet <br />
           </div>
+          <input
+            type="checkbox"
+            name="Brush your teeth in the morning and the night."
+            id="brush-teeth"
+          />
+          Brush your teeth. <br />
         </div>
       </div>
       <br /><br />
@@ -127,7 +127,7 @@
           style="margin-top: 2%"
         />
       </div>
-      <h2>Hospitals Near You</h2>
+      <h2 class="h2">Hospitals Near You</h2>
       <div class="flex">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7213.593539031123!2d55.49180789999998!3d25.311031300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgovernment%20hospitals%20near%20me!5e0!3m2!1sen!2sae!4v1668844068087!5m2!1sen!2sae"
