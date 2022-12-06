@@ -12,3 +12,6 @@
 - This website has a checklist which tells you what you're supposed to do daily, like brushing, eating regular meals, bathing etc.
 - This website also has a local "Hospitals Near Me" map that informs the user about the closest emergency services in case of emergencies.
 - This website also provides a list of emergency numbers on a seperate page to keep them handy.
+
+## What you can expect: 
+![image](https://user-images.githubusercontent.com/82143161/205965961-d6dc8d7e-8c6a-49a4-a851-16091a5a66d1.png)
